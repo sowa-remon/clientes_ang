@@ -1,0 +1,28 @@
+.container-form{
+    border: solid purple;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-guardar{
+    color: azure;
+    background-color: rgb(192, 77, 192);
+    border: solid purple;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-weight: bold;
+}
+
+.btn-guardar:hover{
+    background-color: rgb(111, 36, 120);
+}
+
+label{
+    font-weight: bold;
+}
+

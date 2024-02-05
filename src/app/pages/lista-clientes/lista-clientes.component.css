@@ -1,0 +1,26 @@
+.container-listado{
+        padding: 2rem;
+    }
+
+h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+tr{
+    border-bottom: solid 1px purple;
+}
+
+.datos:hover{
+    background-color: rgba(130, 3, 130,.4);
+}
+
+th{
+    font-weight: bold;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    padding: 0 1rem;
+}

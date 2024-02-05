@@ -1,0 +1,29 @@
+<div class="container-form">
+    <h5>Alta cliente</h5>
+
+    <div class="col">
+        <p>
+            <label for="">Nombre del cliente: </label>
+            <input type="text" class="form-control" [(ngModel)]= "cliente.nombre" >
+        </p>    
+        <p>
+            <label for="">RFC: </label>
+            <input type="text" class="form-control" [(ngModel)]= "cliente.rfc">
+        </p>  
+        <p>
+            <label for="">Domicilio: </label>
+            <input type="text" class="form-control" [(ngModel)] = "cliente.domicilio">
+        </p>
+        <p>
+            <label for="">Selecciona el tipo de cliente: </label>
+            <select [(ngModel)]= "cliente.tipoCliente" class="form-control">
+                <option *ngFor="let tipo of tipos" value="{{tipo.id}}">
+                {{tipo.descripcion}}
+                </option>
+            </select>
+        </p>
+        <p style="text-align: center; margin-top: 2.5rem;">
+            <button class="btn-guardar" type="button" (click)="this.insertarCliente()">Insertar</button>
+        </p>
+    </div>
+</div>
